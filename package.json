@@ -1,0 +1,14 @@
+{
+  "name": "rhm-challenge-one",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "sass scss:css",
+    "watch": "sass scss:css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.38.2"
+  }
+}

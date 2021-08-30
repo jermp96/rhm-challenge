@@ -1,0 +1,18 @@
+@use "../settings/variables";
+
+.a-title-1{
+    font-size: variables.$fs-title-l;
+    line-height: variables.$fs-title-l;
+    letter-spacing: 0.45px
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .a-title-1{
+        font-size: variables.$fs-title-s;
+        line-height: variables.$fs-title-s;
+        letter-spacing: 0;
+    }
+}

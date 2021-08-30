@@ -1,0 +1,7 @@
+a{
+    text-decoration: none;
+    color: seagreen;
+    &:hover,&:focus{
+        columns: rgb(35, 117, 71);
+    }
+}

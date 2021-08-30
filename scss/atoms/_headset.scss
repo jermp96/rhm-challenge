@@ -1,0 +1,19 @@
+.a-headset{
+    width: 32px;
+    height: 32px;
+    display: block;
+    background: url("../../assets/vector/headset.svg") no-repeat;
+    background-size: 32px 32px;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .a-headset{
+        width: 25px;
+        height: 25px;
+        display: block;
+        background-size: 25px 25px;
+    }
+  }

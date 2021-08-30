@@ -1,0 +1,8 @@
+@use "../settings/variables";
+
+body{
+    color: variables.$font-body-color;
+    font-size: variables.$fs-body;
+    margin: 0;
+    font-family: variables.$f-family;
+}

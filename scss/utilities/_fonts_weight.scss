@@ -1,0 +1,13 @@
+@use "../settings/variables";
+
+.f-light{
+    font-weight: variables.$fw-light!important;
+}
+
+.f-regular{
+    font-weight: variables.$fw-regular!important;
+}
+
+.f-semi-bold{
+    font-weight: variables.$fw-semi-bold!important;
+}
