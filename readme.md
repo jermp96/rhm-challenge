@@ -1,4 +1,4 @@
-# Rinding Hood Media - Challenge
+# Riding Hood Media - Challenge
 
 ## To run this project
 
