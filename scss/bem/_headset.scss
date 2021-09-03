@@ -1,4 +1,4 @@
-.a-headset{
+.headset{
     width: 32px;
     height: 32px;
     display: block;
@@ -10,7 +10,7 @@
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-    .a-headset{
+    .headset{
         width: 25px;
         height: 25px;
         display: block;

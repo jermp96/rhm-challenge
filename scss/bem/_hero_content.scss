@@ -1,4 +1,4 @@
-.g_hero{
+.hero_content{
     &__info{
         padding: 5rem;
         text-align: center;
@@ -21,16 +21,13 @@
         align-items: center;
         justify-content: center;
     }
-    &__abstract{
-        text-align: center;
-    }
 }
 
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-    .g_hero{
+    .hero_content{
         &__info{
             padding: 0;
             text-align: center;
@@ -54,9 +51,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-        }
-        &__abstract{
-            text-align: center;
         }
     }
 }

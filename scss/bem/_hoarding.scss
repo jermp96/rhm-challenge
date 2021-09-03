@@ -1,6 +1,6 @@
-@use "../settings/variables";
+@use "./variables";
 
-.a_hoarding{
+.hoarding{
     color: variables.$font-white;
     &__primary{
         background-color: variables.$background-green;
@@ -8,7 +8,7 @@
     &__secondary{
         background: variables.$background-ribbon;
     }
-    &__secondary_gradient{
+    &__secondary__gradient{
         background-image: linear-gradient(to right, variables.$ribbon-gradiente-1, variables.$ribbon-gradiente-2);
     }
 }
@@ -17,8 +17,8 @@
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) {
-    .a_hoarding{
-        &__secondary_gradient{
+    .hoarding{
+        &__secondary__gradient{
             background-image: linear-gradient(to bottom, variables.$ribbon-gradiente-1, variables.$ribbon-gradiente-2);
         }
     }

@@ -1,21 +1,11 @@
-//elements
-@use "elements/body";
-@use "elements/links";
+@use "./bem/global";
+@use "./bem/background";
+@use "./bem/headset";
+@use "./bem/helpers";
+@use "./bem/hero_grid";
+@use "./bem/hero_content";
+@use "./bem/hoarding";
+@use "./bem/title";
+ 
 
-//objects
-@use "objects/hero_grid";
-@use "objects/hero_piece";
 
-//atoms
-@use "atoms/cover_background";
-@use "atoms/typography";
-@use "atoms/hoarding";
-@use "atoms/headset";
-
-// organism
-@use "organisms/hero";
-
-// utilities
-@use "utilities/fonts_weight";
-@use "utilities/margins";
-@use "utilities/paddings";

@@ -1,13 +1,33 @@
-.o_hero_grid{
+.hero_grid{
     display: grid;
     grid-template-columns: 25% 2% 46% 2% 25%;
     grid-template-rows: 15rem 15rem 5rem 2rem 15rem;
 }
+
+.hero_grid__element{
+    &:nth-child(1){
+        grid-area: 1/1/4/6;
+    }
+    &:nth-child(2){
+        grid-area: 2/3/3/4;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+    }
+    &:nth-child(3){
+        grid-area: 3/2/5/5;
+        z-index: 1; 
+    }
+    &:nth-child(4){
+        grid-area: 5/2/5/5;
+    }
+}
+
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-    .o_hero_grid{
+    .hero_grid{
         grid-template-columns: 5% 5% 80% 5% 5%;
         grid-template-rows: 10rem 10rem 5rem 5rem 20rem;
     }
